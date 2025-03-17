@@ -12,25 +12,22 @@ a {
     color: brown;
 }
 .topbar {
+    display: grid;
+    grid-template-columns: 7.5fr 1fr 1fr 0.9fr;
     background-color: #24422d;
     position: absolute;
     top: 0%;
     left: 0%;
     width: 100%;
-    height: 35px;
-}
-.topplänk {
-    position: relative;
-    float: right;
-    top: 8px;
-    left: -50px;
+    height: 27px;
+    padding-top: 13px;
+    font-size: 80%;
 }
 
 #Frakt {
     position: relative;
-    font-size: 80%;
     float: left;
-    top: 10px;
-    left: 50px;
+    top: 0px;
+    left: 58px;
     color: white;
 }
