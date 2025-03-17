@@ -1,3 +1,36 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .test {
     color: brown;
+}
+.topbar {
+    background-color: #24422d;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 35px;
+}
+.topplänk {
+    position: relative;
+    float: right;
+    top: 8px;
+    left: -50px;
+}
+
+#Frakt {
+    position: relative;
+    font-size: 80%;
+    float: left;
+    top: 10px;
+    left: 50px;
+    color: white;
 }
