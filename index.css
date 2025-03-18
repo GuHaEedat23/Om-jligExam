@@ -33,3 +33,10 @@ a {
     left: 58px;
     color: white;
 }
+
+#LantBild {
+    position: relative;
+    width: 13.5%;
+    top: -255px;
+    left: 70px;
+}
