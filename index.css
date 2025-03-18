@@ -10,10 +10,12 @@ a {
 
 .test {
     color: brown;
+    position: relative;
+    top: 1000px;
 }
 .topbar {
     display: grid;
-    grid-template-columns: 7.5fr 1fr 1fr 0.9fr;
+    grid-template-columns: 7.5fr 1.03fr 1.05fr 0.85fr;
     background-color: #24422d;
     position: absolute;
     top: 0%;
