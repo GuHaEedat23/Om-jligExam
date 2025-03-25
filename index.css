@@ -94,10 +94,10 @@ a {
   
   .sidenav .closebtn {
     position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+    top: 8px;
+    left: 0px;
+    font-size: 40px;
+    margin-right: 35px;
   }
   
   
@@ -140,4 +140,8 @@ a {
     transition: 0.5s;
     padding-top: 60px;
     cursor: default;
+  }
+
+  .SideBilder {
+    width: 10%;
   }
