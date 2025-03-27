@@ -86,8 +86,17 @@ a {
     color: #ffffff;
     display: block;
     transition: 0.3s;
+    font-size: 17px;
   }
   
+  .sidenav .Divs {
+    position: relative;
+    top: -33px;
+    left: 45px;
+    margin-bottom: -18.5px;
+    margin-top: 5px;
+  }
+
   .sidenav a:hover {
     color: #234923;
   }
@@ -121,13 +130,29 @@ a {
     padding: 15px 26px 13px 22px;
   }
 
+  #Horse {
+    padding-top: 10px;
+  }
+
+  #Husdjur {
+    padding-top: 10.1px;
+  }
+
+  #Hem {
+    padding-top: 10.15px;
+  }
+
   .padder {
-    padding-bottom: 28px;
+    padding-bottom: 23px;
   }
 
   .NavBarItem:hover {
     background-color: #efe5d0;
   }
+
+.NavBarItem:hover .SideBilder {
+    filter: invert(22%) sepia(9%) saturate(2795%) hue-rotate(72deg) brightness(28%) contrast(88%);
+}
 
   .Side {
     height: 100%;
@@ -157,5 +182,16 @@ a {
   }
 
   .SideBilder {
-    width: 10%;
+    width: 10.8%;
+    position: relative;
+    left: -10px;
+    top: 5px;
+  }
+
+  #LantSid {
+    width: 10.79%;
+  }
+
+  #HemSid {
+    width: 10.79%;
   }
