@@ -115,6 +115,23 @@ a {
     transition: 0s;
   }
 
+  .extender {
+    position: absolute;
+    top: 0px;
+    z-index: 20;
+    width: 100%;
+    height: 6%;
+  }
+
+  .Stäng {
+    position: absolute;
+    top: 19px;
+    left: 20.5%;
+    z-index: 19;
+    font-size: 80%;
+    color: #ffffff;
+  }
+
   .sidenav .closebtn:hover {
     color: #ffffffc8;
   }
@@ -150,9 +167,9 @@ a {
     background-color: #efe5d0;
   }
 
-.NavBarItem:hover .SideBilder {
+  .NavBarItem:hover .SideBilder {
     filter: invert(22%) sepia(9%) saturate(2795%) hue-rotate(72deg) brightness(28%) contrast(88%);
-}
+  }
 
   .Side {
     height: 100%;
