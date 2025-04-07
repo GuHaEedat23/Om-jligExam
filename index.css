@@ -78,6 +78,7 @@
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    box-shadow: black -5px 1px 12px;
   }
   
   .sidenav a {
@@ -146,6 +147,14 @@
   .NavBarItem {
     border-bottom: 1px solid hsla(0, 0%, 100%, .1);
     padding: 15px 26px 13px 22px;
+  }
+
+  .SidPil {
+    position: relative;
+    float: right;
+    width: 3.9%;
+    margin-right: 18px;
+    margin-top: -32px;
   }
 
   #Horse {
