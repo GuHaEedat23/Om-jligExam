@@ -241,3 +241,22 @@
     padding-bottom: 15px;
     padding-left: 22px;
   }
+
+  #searchbar {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    border: 1px solid blue;
+    margin: 5px 0;
+    border-radius: 50px;
+    width: 380px;
+    height: 45px;
+    padding-left: 25px;
+  }
+
+  #searchicon {
+    width: 10%;
+  }
+
+  #search {
+    border: none;
+  }
