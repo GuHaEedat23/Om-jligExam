@@ -243,20 +243,45 @@
   }
 
   #searchbar {
+    position: absolute;
+    left: 34.65%;
+    top: 7.5%;
     display: grid;
     grid-template-columns: 0.1fr 1fr;
-    border: 1px solid blue;
+    border: 1px solid #bbb;
     margin: 5px 0;
     border-radius: 50px;
-    width: 380px;
-    height: 45px;
+    width: 376px;
+    height: 47px;
     padding-left: 25px;
+    align-items: center;
+    background-color: #f8f8f8;
   }
 
   #searchicon {
-    width: 10%;
+    position: relative;
+    left: -7.5px;
+    top: 1.57px;
+    width: 53.8%;
+    
   }
 
   #search {
     border: none;
+    background-color: transparent;
+    position: absolute;
+    left: 44px;
+    top: 1.5px;
+    color: #6b6b6b;
+    height: 45px;
+    width: 355px;
+    border-radius: 50px;
+  }
+
+  #search::placeholder {
+    color: #6b6b6b;
+  }
+
+  input:focus{
+    outline: none;
   }
