@@ -1,11 +1,16 @@
   body {
     overflow-x: hidden;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #fcfbf9;
   }
 
   a {
     color: white;
     text-decoration: none;
+  }
+
+  input:focus{
+    outline: none;
   }
 
   .test {
@@ -76,7 +81,7 @@
     left: 0;
     background-color: #24422D;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.5s linear;
     padding-top: 60px;
     box-shadow: black -5px 1px 12px;
   }
@@ -282,6 +287,30 @@
     color: #6b6b6b;
   }
 
-  input:focus{
-    outline: none;
+  .Images{
+    position: absolute;
+    top: 5.4%;
+    left: -30px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: end;
+    align-content: space-evenly;
+    padding-left: 80%;
+    height: 89px;
+    z-index: -2;
+  }
+
+  #CustomerService{
+    position: relative;
+    width: 25%;
+  }
+
+  #LoggaIn{
+    position: relative;
+    width: 25%;
+  }
+
+  #Kassa{
+    width: 25%;
   }
