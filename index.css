@@ -14,7 +14,7 @@
   }
 
   .test {
-    color: brown;
+    color: rgb(255, 255, 255);
     position: relative;
     top: 1000px;
   }
@@ -358,8 +358,58 @@
     opacity: 60%;
   }
 
-  #Orb1{
+  .Orbs{
+    position: absolute;
+    top: 80.8%;
+    display: grid;
+    grid-template-columns: 0.65fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 75px;
+    height: 100px;
+    
+  }
+
+  .Orb1{
     position: relative;
-    background-color: antiquewhite;
+    background-color: #efe5d0;
     border-radius: 50%;
+    width: 100px;
+    height: 101px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 0 rgba(239, 229, 208, .3);
+  }
+
+  .Bilder2{
+    width: 46%;
+  }
+
+  .OrbGrouper{
+    display: flex;
+    justify-content: baseline;
+  }
+
+  .OrbText{
+    position: absolute;
+    top: 97%;
+    left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 88px;
+    z-index: 3;
+    text-align: center;
+    line-height: 25px;
+    font-size: 95%
+  }
+
+  #Produkt{
+    width: 94%;
+    position: absolute;
+    top: 114%;
+  }
+
+  #go{
+    display: flex;
+    justify-content: center;
   }
