@@ -413,3 +413,45 @@
     display: flex;
     justify-content: center;
   }
+
+  .sidenav2 {
+    height: 100%;
+    width: 500px;
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    right: -500px;
+    background-color: #fcfaf6;
+    overflow-x: hidden;
+    transition: 0.5s linear;
+    padding-top: 60px;
+    box-shadow: black 5px -1px 2px;
+    transition: 300ms;
+  }
+
+  .Stäng2 {
+    position: absolute;
+    top: 9px;
+    left: 82.7%;
+    z-index: 19;
+    font-size: 90%;
+    color: #000000;
+    border: #efe5d0 solid 12px;
+    border-radius: 30px;
+    background-color: #efe5d0;
+  }
+
+  #Varukorg{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    font-size: 26px;
+    color: #24422d;
+  }
+
+  #Tom{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 6.5%;
+  }

@@ -76,7 +76,7 @@
     <div class="Images">
         <div class="Gray"><a href="https://www.lantbutiken.se/kontakta-oss"><img src="Bilder/CustomerService.png" alt="CS" id="CustomerService"><p id="KontaktaT">KONTAKTA OSS</p></a></div>
         <div class="Gray"><a href="https://www.lantbutiken.se/Logga-in?RedirectUrl=%2f"><img src="Bilder/LoggaIn.png" alt="LoggaIn" id="LoggaIn"><p id="LoggaT">LOGGA IN</p></a></div>
-        <div class="Gray"><a href="javascript:void(0)"><img src="Bilder/Kassa.png" alt="Kassa" id="Kassa"><p id="KassaT">KASSA</p></a></div>
+        <div class="Gray"><a href="javascript:void(0)" onclick="openNav2()"><img src="Bilder/Kassa.png" alt="Kassa" id="Kassa"><p id="KassaT">KASSA</p></a></div>
     </div>
 
     <div id="mySidenav" class="sidenav">
@@ -92,8 +92,13 @@
         <a href="#" class="NavBarItem" id="KOO"><div>Kampanjer</div></a>
         <a href="#" class="NavBarItem" id="KOO"><div>Outlet</div></a>
     </div>
+    <div id="mySidenav2" class="sidenav2">
+        <div id="Varukorg">VARUKORG</div>
+        <a href="javascript:void(0)" onclick="closeNav2()"></a><p class="Stäng2">STÄNG</p>
+        <div id="Tom">Din varukorg är tom, Dumbass</div>
+    </div>
     <div id="TestSide" class="Side">
-        <a href="javascript:void(0)" class="Close" onclick="closeNav()" id="Closes"></a>
+        <a href="javascript:void(0)" class="Close" onclick="closeNav(); closeNav2();" id="Closes"></a>
     </div>
     <div class="SideHide">
         
@@ -141,6 +146,21 @@
       
       function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("TestSide").style.opacity = "0%";
+        document.getElementById("TestSide").style.zIndex = -1;
+        document.getElementById("Closes").style.zIndex = -1;
+      }
+
+      function openNav2() {
+        document.getElementById("mySidenav2").style.right = "0px";
+        document.getElementById("TestSide").style.opacity = "100%";
+        document.getElementById("TestSide").style.backgroundColor = "rgba(0, 0, 0, .431372549)";
+        document.getElementById("TestSide").style.zIndex = 19;
+        document.getElementById("Closes").style.zIndex = 19;
+      }
+      
+      function closeNav2() {
+        document.getElementById("mySidenav2").style.right = "-500px";
         document.getElementById("TestSide").style.opacity = "0%";
         document.getElementById("TestSide").style.zIndex = -1;
         document.getElementById("Closes").style.zIndex = -1;
